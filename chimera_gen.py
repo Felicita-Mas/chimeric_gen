@@ -4,9 +4,9 @@ from Bio.SeqRecord import SeqRecord
 import argparse
 import random
 
-def replace_sequence_from_start(donor_seq, recipient_seq, percentage, output_path):
+def replace_sequence_random(donor_seq, recipient_seq, percentage, output_path):
     """
-    This function replaces the beginning part of the recipient sequence with the beginning part of the donor sequence
+    This function replaces a random part of the recipient sequence with a random part of the donor sequence
     of the same length, determined by a percentage of the length of the sequences.
 
     Input:
@@ -71,7 +71,7 @@ def main():
     output = args.out
 
     # Call the function with the parsed arguments
-    replace_sequence_from_start(donor_record.seq, recipient_record.seq, percentage, output)
+    replace_sequence_random(donor_record.seq, recipient_record.seq, percentage, output)
 
 if __name__ == "__main__":
     main()
