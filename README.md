@@ -81,6 +81,9 @@ The script performs the following steps:
 4. Plot the relationship between the ength of HGTs and ANI.
 5. Optionally, repeat with different donor genomes from various taxonomic groups to assess the impact of phylogenetic distance.
 
+## Authors
+Ghiotto Chiara, Gorbunova Valeriia, Masone Felicita Pia
+
 ## Contribution
 
 Contributions to this project are welcome. Please create a fork and submit a pull request with your changes.
