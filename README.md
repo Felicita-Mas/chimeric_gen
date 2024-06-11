@@ -5,6 +5,8 @@ This code was developed as part of a project carried out during the Microbial Me
 
 This script simulates horizontal gene transfer (HGT) by generating chimeric genomes. It takes two input genomes in FNA format and replaces a portion of the recipient genome with a portion of the donor genome. The modified genome is then saved to a new FASTA file. This script can be used to test the efficiency of software tool like FastANI in dealing with such generated variants.
 
+**Note**: The script transfers a single DNA sequence, not multiple sequences with a total length equal to the requested percentage.
+
 ## Features
 
 - **Input**: Two complete genomes in FNA format.
@@ -61,6 +63,8 @@ The script performs the following steps:
 5. **Extract Sequences**: Extracts the sequence segments to be replaced from both genomes.
 6. **Create Chimeric Genome**: Replaces the segment in the donor genome with the segment from the recipient genome.
 7. **Save the Output**: Writes the modified genome to the specified output file.
+
+**Note**: The script transfers a single DNA sequence, not multiple sequences with a total length equal to the requested percentage.
 
 ## Further Work
 
